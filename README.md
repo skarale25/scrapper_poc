@@ -11,6 +11,8 @@ Run :
 """ 
 To get latest changes from all scrapped websites
 """
+
+
 python main.py
 
 
