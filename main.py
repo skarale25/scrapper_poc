@@ -37,15 +37,11 @@ fedora_planet(fedora_planet_feed)
 gnhome_planet(gnhome_planet_feed)
 openstack_planet(openstack_planet_feed)
 python_planet(python_planet_feed)
-print len(fedora_planet_feed.entries)
-print len(gnhome_planet_feed.entries)
-print len(openstack_planet_feed.entries)
-print len(python_planet_feed.entries)
+
 fedora_planet_str = str(fedora_planet_feed)
 gnhome_planet_str = str(gnhome_planet_feed)
 openstack_planet_str = str(openstack_planet_feed)
 python_planet_str = str(python_planet_feed)
-
 
 f = open('myfile.xml','w')
 f.write(str(fedora_planet_str))
